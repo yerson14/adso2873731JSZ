@@ -2,26 +2,25 @@ import 'dart:io';
 void main() {
   //Yerson Herrera - EJE condicional Anidado  03
   /*
-  En  un  montallantas  se  ha  establecido  una  promoción  de  las  llantas  marca  “Ponchadas”,  dicha promoción consiste en lo siguiente:Si se compran menos de cinco llantas el precio es de $90000 cada una, de $80000 si se compran de cinco a 10 y de $70000 si se compran más de 10. Obtener la cantidad de dinero que una persona tiene que pagar por cada una de las llantas que compra y la que tiene que pagar por el total de la compra
+  En una fábrica de computadoras se planea ofrecer a los clientes un descuento que dependerá del número de computadoras que compre. Si las computadoras son menos de cinco se les dará un 10% de descuento sobre el total de la compra; si el número de computadoras es mayor o igual a cinco pero  menos  de  diez  se  le  otorga  un  20%  de  descuento;  y  si  son  10  o  más  se  les  da  un  40%  de descuento. El precio de cada computadora es de $1100000
   */
   //Definicion variables
-  int cantidadLlantas;
-  double precioLlanta, totalPagar;
+  int cantidadComputadoras;
+  double precioComputadora, totalPagar;
   //Entrada
-print("Cuantas llantas que desea comprar: ");
-  cantidadLlantas = int.parse(stdin.readLineSync()!);
+  print("Cuantas computadoras desea comprar: ");
+  cantidadComputadoras = int.parse(stdin.readLineSync()!);
   //Proceso alg
-  precioLlanta = 0;
-  if (cantidadLlantas < 5) {
-    precioLlanta = 90000;
-  } else if (cantidadLlantas >= 5 && cantidadLlantas <= 10) {
-    precioLlanta = 80000;
-  } else if (cantidadLlantas > 10) {
-    precioLlanta = 70000;
+  precioComputadora = 0;
+  if (cantidadComputadoras < 5) {
+    precioComputadora = 1100000;
+  } else if (cantidadComputadoras >= 5 && cantidadComputadoras < 10) {
+    precioComputadora = 1100000;
+  } else if (cantidadComputadoras >= 10) {
+    precioComputadora = 1100000;
   }
-  totalPagar = cantidadLlantas * precioLlanta;
- 
-//Salida alg
+  totalPagar = precioComputadora * cantidadComputadoras;
+  //Salida alg
   print("Lo que tiene que pagar es: $totalPagar");
   
 

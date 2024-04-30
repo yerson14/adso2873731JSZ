@@ -1,28 +1,28 @@
 import 'dart:io';
 void main() {
-  //Yerson Herrera - EJE condicional Anidado  03
+  //Yerson Herrera - EJE condicional Anidado  06
   /*
-  En  un  montallantas  se  ha  establecido  una  promoción  de  las  llantas  marca  “Ponchadas”,  dicha promoción consiste en lo siguiente:Si se compran menos de cinco llantas el precio es de $90000 cada una, de $80000 si se compran de cinco a 10 y de $70000 si se compran más de 10. Obtener la cantidad de dinero que una persona tiene que pagar por cada una de las llantas que compra y la que tiene que pagar por el total de la compra
+El dueño de una empresa desea planificar las decisiones financieras que tomara en el Siguiente año. La manera de planificarlas depende de lo siguiente:Si actualmente su capital se encuentra con saldo negativo, pedirá un préstamo bancario para que su nuevo saldo sea de $1000000. Si su capital tiene actualmente un saldo positivo pedirá un préstamo bancario  para  tener  un  nuevo  saldo  de  $2000000,  pero  si  su capital  tiene  actualmente  un  saldo superior a los $2000000 no pedirá ningún préstamo.Posteriormente repartirá su presupuesto de la siguiente manera.
+•$500000 para equipo de computo
+•$200000 para mobiliario
+•y del resto, la mitad será para la compra de insumos y la otra para otorgar incentivos al personal.Solicitar el capital y en base a este desplegar que cantidades se destinaran para la compra de insumos e incentivos al personal y, en caso de que fuera necesario, a cuanto ascendería la cantidad que se pediría al banco.
   */
   //Definicion variables
-  int cantidadLlantas;
-  double precioLlanta, totalPagar;
-  //Entrada
-print("Cuantas llantas que desea comprar: ");
-  cantidadLlantas = int.parse(stdin.readLineSync()!);
-  //Proceso alg
-  precioLlanta = 0;
-  if (cantidadLlantas < 5) {
-    precioLlanta = 90000;
-  } else if (cantidadLlantas >= 5 && cantidadLlantas <= 10) {
-    precioLlanta = 80000;
-  } else if (cantidadLlantas > 10) {
-    precioLlanta = 70000;
+  double capital,insumos,prestamo;
+  //Entrada/Proceso alg
+  print('Digite el capital');
+  capital= double.parse(stdin.readLineSync()!);
+  insumos=0;
+  if (capital < 0) {
+    insumos = 500000;
   }
-  totalPagar = cantidadLlantas * precioLlanta;
- 
-//Salida alg
-  print("Lo que tiene que pagar es: $totalPagar");
-  
-
+  else if (capital > 0 && capital < 2000000) {
+    insumos = 200000;
+  }
+  else if (capital > 2000000) {
+    insumos = 0;
+  }
+  prestamo = capital - insumos;
+  //Salida alg
+  print('El capital que se pedira es: $prestamo');
 }

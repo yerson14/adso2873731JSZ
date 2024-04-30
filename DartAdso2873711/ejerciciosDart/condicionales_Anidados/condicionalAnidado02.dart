@@ -1,6 +1,6 @@
 import 'dart:io';
 void main() {
-  //Yerson Herrera - EJE condicional Anidado  01
+  //Yerson Herrera - EJE condicional Anidado  02
   /*
  Dado el monto de una compra calcular el descuento considerado
  •Descuento es 20% si el monto es mayor a 20000 pesos.
