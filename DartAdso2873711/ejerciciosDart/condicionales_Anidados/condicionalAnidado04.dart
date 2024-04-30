@@ -16,7 +16,7 @@ print("Cuantas llantas que desea comprar: ");
     precioLlanta = 90000;
   } else if (cantidadLlantas >= 5 && cantidadLlantas <= 10) {
     precioLlanta = 80000;
-  } else if (cantidadLlantas > 10) {
+  } else  {
     precioLlanta = 70000;
   }
   totalPagar = cantidadLlantas * precioLlanta;

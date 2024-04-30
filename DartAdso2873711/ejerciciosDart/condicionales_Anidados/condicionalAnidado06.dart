@@ -19,7 +19,7 @@ El dueño de una empresa desea planificar las decisiones financieras que tomara 
   else if (capital > 0 && capital < 2000000) {
     insumos = 200000;
   }
-  else if (capital > 2000000) {
+  else{
     insumos = 0;
   }
   prestamo = capital - insumos;

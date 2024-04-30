@@ -16,7 +16,7 @@ void main() {
     precioComputadora = 1100000;
   } else if (cantidadComputadoras >= 5 && cantidadComputadoras < 10) {
     precioComputadora = 1100000;
-  } else if (cantidadComputadoras >= 10) {
+  } else  {
     precioComputadora = 1100000;
   }
   totalPagar = precioComputadora * cantidadComputadoras;
