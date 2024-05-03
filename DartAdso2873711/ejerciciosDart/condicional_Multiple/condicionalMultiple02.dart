@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  //Yerson Herrera- EJE condicional multiple 02
+  //YERSON HERRERA- EJE condicional multiple 02
   /*Una compañía de fumigación utiliza aviones para fumigar las cosechas contra una gran variedad de plagas. Las cantidades que la compañía cobra a los granjeros depende de qué es lo que se desea fumigar y del número de hectáreas que se desea fumigar, de acuerdo con la siguiente distribución : 
 Tipo 1 : Fumigación contra malas hierbas, $50000 por hectárea 
 Tipo 2 : Fumigación contra moscas y mosquitos, $70000 por hectárea 
@@ -46,13 +46,13 @@ Se debe imprimir el nombre del granjero y la cuenta total. */
       return;
   }
 
-  // Se calcula el descuento por superficie si aplica
+  // Se calcula el descuento por superficie olo si aplica
   if (hectareas > 100) {
     descuentoSuperficie = costoTotal * 0.05;
     costoTotal -= descuentoSuperficie;
   }
 
-  // Se calcula el descuento total si aplica
+  // Se calcula el descuento total solo si este mismo aplica
   if (costoTotal > 1000000) {
     descuentoTotal = (costoTotal - 1000000) * 0.1;
     costoTotal -= descuentoTotal;
