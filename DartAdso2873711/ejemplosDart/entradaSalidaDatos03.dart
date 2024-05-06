@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(){
-  print("Ejemplo 03 - Entrada/salida Daros");
+  print("Ejemplo 03 - Entrada/salida Datos");
   //DEfinicion
   double nota1, nota2, nota3, promedio;
   //Entrada alg

@@ -11,7 +11,7 @@ void main() {
   int edad;
   double altura;
   bool estado;
-  nombre = "Ana";
+  nombre = "Yer";
   edad = 18;
   altura = 1.78;
   estado = true;

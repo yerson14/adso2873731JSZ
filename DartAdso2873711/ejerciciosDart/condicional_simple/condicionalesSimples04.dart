@@ -12,9 +12,8 @@ double precioOriginal, descuento, precioConDescuento,precioFinal;
   //Entrada/Proceso alg
 print("Digite el nombre del articulo: ");
 nombre = (stdin.readLineSync()!);
-clave =int.parse(stdin.readLineSync()!);
 print("Ingrese la clave del articulo: ");
-clave = int.parse(stdin.readLineSync()!);
+clave =int.parse(stdin.readLineSync()!);
 print("Ingrese el precio original del articulo: ");
 precioOriginal = double.parse(stdin.readLineSync()!);
 descuento=precioOriginal*0.1;

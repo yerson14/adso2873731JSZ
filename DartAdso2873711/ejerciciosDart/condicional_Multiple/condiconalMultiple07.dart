@@ -7,7 +7,6 @@ país destino, y del número de minutos hablados.
 En la siguiente tabla se presenta el costo por minuto por zona. A cada uno se le ha asociado una
 clave. Construya la solución para calcular e imprimir el costo de una llamada dada la clave y la
 duración de la llamada.
-
 Clave |    Zona           |Precio  |   Precio/minuto (del 4 en adelante)
 12    |América del Norte  |200     |          150
 15    |América Central    |220     |          180
@@ -18,67 +17,67 @@ Clave |    Zona           |Precio  |   Precio/minuto (del 4 en adelante)
 29    |Oceanía            |500     |          390
 */
 //Definición variables 
-int numhablados, clave;
+int numHablados, clave;
 double costototal;
 //Entrada
 print("Ingrese el número de minutos hablados:");
-numhablados = int.parse(stdin.readLineSync()!);
+numHablados = int.parse(stdin.readLineSync()!);
 print("Ingrese la clave de la zona geográfica:");
 clave = int.parse(stdin.readLineSync()!);
-//Proceso
+//Proceso alg
 costototal=0;
   switch (clave) {
       case 12:
-      if(numhablados>4){
-        costototal=(numhablados-4)*150;
+      if(numHablados>4){
+        costototal=(numHablados-4)*150;
       }
-        costototal = 200 * numhablados.toDouble();
+        costototal = 200 * numHablados.toDouble();
         break;
 
       case 15:
-       if(numhablados>4){
-        costototal=(numhablados-4)*180;
+       if(numHablados>4){
+        costototal=(numHablados-4)*180;
       }
-        costototal = 220 * numhablados.toDouble();
+        costototal = 220 * numHablados.toDouble();
         break;
 
       case 18:
-      if(numhablados>4){
-        costototal=(numhablados-4)*350;
+      if(numHablados>4){
+        costototal=(numHablados-4)*350;
       }
-        costototal = 450 * numhablados.toDouble();
+        costototal = 450*numHablados.toDouble();
         break;
 
       case 19:
-      if(numhablados>4){
-        costototal=(numhablados-4)*270;
+      if(numHablados>4){
+        costototal=(numHablados-4)*270;
       }
-        costototal = 350 * numhablados.toDouble();
+        costototal = 350 * numHablados.toDouble();
         break;
 
       case 23:
-      if(numhablados>4){
-        costototal=(numhablados-4)*460;
+      if(numHablados>4){
+        costototal=(numHablados-4)*460;
       }
-        costototal = 600 * numhablados.toDouble();
+        costototal = 600 * numHablados.toDouble();
         break;
 
       case 25:
-      if(numhablados>4){
-        costototal=(numhablados-4)*460;
+      if(numHablados>4){
+        costototal=(numHablados-4)*460;
       }
-        costototal = 600 * numhablados.toDouble();
+        costototal = 600 * numHablados.toDouble();
         break;
 
       case 29:
-      if(numhablados>4){
-        costototal=(numhablados-4)*390;
+      if(numHablados>4){
+        costototal=(numHablados-4)*390;
       }
-        costototal = 500 * numhablados.toDouble();
+        costototal = 500 * numHablados.toDouble();
         break;
       default:
         print('Error: La clave ingresada no es válida.');
     }
-     // Salida
+     // Salida alg
     print('El costo total de la llamada es: $costototal');
 }

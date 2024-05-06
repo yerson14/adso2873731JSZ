@@ -62,8 +62,7 @@ Es necesario tener en cuenta si es año bisiesto o no*/
       print('Error: El mes ingresado no es válido.');
       return;
   }
-
-  // Salida
+  // Salida alg
   print('El mes $mes del año $anio tiene $diasMes días.');
 }
 

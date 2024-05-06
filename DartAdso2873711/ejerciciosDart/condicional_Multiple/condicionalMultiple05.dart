@@ -55,6 +55,6 @@ costototal=0;
         break;
     }
   
-    // Salida
+    // Salida alg
     print('El costo total de la llamada es: $costototal');
 }
