@@ -20,11 +20,11 @@ void main(List<String> args) {
         print("Ingrese el valor de la venta numero "+(i+1).toString());
         ventas=double.parse(stdin.readLineSync()!);
         sueldo+=cantidad;
-        contador++;
       }
       comisiones=sueldo*0.10;
       print("El total con comisiones es: $comisiones ");
       sueldoTotal=sueldo+comisiones;
       print("El sueldo total es de $sueldoTotal");
+        contador++;
     }
 }
