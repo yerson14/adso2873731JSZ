@@ -23,6 +23,4 @@ print("Cuantas llantas que desea comprar: ");
  
 //Salida alg
   print("Lo que tiene que pagar es: $totalPagar");
-  
-
 }

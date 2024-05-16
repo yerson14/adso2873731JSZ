@@ -1,14 +1,11 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  
-
   String? nombreCliente;
   int tipoCliente;
   int cantEscobas, cantRecogedores, cantAromat;
   int precioEscobas=3000, precioRecogedor=1000,precioAromat=1000;
   double totalCompra,descuento,subtotal;
-
   //Entrada alg
   print("Cual es su nombre");
   nombreCliente = stdin.readLineSync()!;
@@ -18,7 +15,6 @@ void main(List<String> args) {
   cantEscobas = int.parse(stdin.readLineSync()!);
   cantRecogedores = int.parse(stdin.readLineSync()!);
   cantAromat = int.parse(stdin.readLineSync()!);
-
   //Proceso
   subtotal =(cantEscobas.toDouble()*precioEscobas)+(cantRecogedores*precioRecogedor)+(cantAromat*precioAromat);
   switch (tipoCliente){

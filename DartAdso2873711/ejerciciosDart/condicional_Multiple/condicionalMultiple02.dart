@@ -18,7 +18,6 @@ Se debe imprimir el nombre del granjero y la cuenta total. */
   String? nombreGranjero;
   int tipoFumigacion;
   double hectareas, costoTotal, descuentoSuperficie, descuentoTotal, totalPagar;
-
   // Entrada
   print("Ingrese el nombre del granjero:");
   nombreGranjero = stdin.readLineSync();
@@ -26,8 +25,7 @@ Se debe imprimir el nombre del granjero y la cuenta total. */
   tipoFumigacion = int.parse(stdin.readLineSync()!);
   print("Ingrese el número de hectáreas a fumigar:");
   hectareas = double.parse(stdin.readLineSync()!);
-
-  // Proceso
+  // Proceso alg
   switch (tipoFumigacion) {
     case 1:
       costoTotal = hectareas * 50000;
@@ -45,25 +43,18 @@ Se debe imprimir el nombre del granjero y la cuenta total. */
       print("Tipo de fumigación no válido.");
       return;
   }
-
   // Se calcula el descuento por superficie olo si aplica
   if (hectareas > 100) {
     descuentoSuperficie = costoTotal * 0.05;
     costoTotal -= descuentoSuperficie;
   }
-
   // Se calcula el descuento total solo si este mismo aplica
   if (costoTotal > 1000000) {
     descuentoTotal = (costoTotal - 1000000) * 0.1;
     costoTotal -= descuentoTotal;
   }
-
-  // SALIDA
-
+  // Salida
   totalPagar = costoTotal;
-
-  
-  
   print("Nombre del granjero: $nombreGranjero");
   print("Total a pagar: \$$totalPagar");
 }

@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  //Yerson Herrera - EJE condicional doble  04
+  //Yerson Herrera - EJE condicional doble  05
   /*
   Un cliente ordena cierta cantidad de brochas de cerda y rodillos; las brochas de cerda tienen un 20% de
 descuento y los rodillos un 15% de descuento. Los datos que se tienen por cada tipo de artículo son: la cantidad
@@ -11,7 +11,8 @@ para el caso de pago de crédito. Para el caso de pago de contado el usuario ing
 usuario ingresa 2.
   */
   //Definicion variables
-  double precioBrochas, precioRodillos, descuentoBrochas, descuentoRodillos, totalBrochas, totalRodillos, total, pagoContado,pagoCredito;
+  double precioBrochas, precioRodillos, descuentoBrochas, descuentoRodillos;
+  double totalBrochas, totalRodillos, total, pagoContado,pagoCredito;
   int cantidadBrochas, cantidadRodillos, tipoPago;
   //Entrada/Proceso alg
   print("Digite la cantidad de brochas que quiere comprar");

@@ -10,7 +10,7 @@ void main() {
   double horasTrabajadas, cuotaHora, sueldo, incentivo;
   //Entrada
   print("Ingrese su nombre");
-  nombre = stdin.readLineSync();
+  nombre = stdin.readLineSync()!;
   print("Digite la cantidad de horas trabajadas");
   horasTrabajadas = double.parse(stdin.readLineSync()!);
   print("Ingrese el valor de la hora");

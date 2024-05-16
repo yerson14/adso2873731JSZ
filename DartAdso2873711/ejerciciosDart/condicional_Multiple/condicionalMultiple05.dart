@@ -54,7 +54,6 @@ costototal=0;
         print('Error: La clave ingresada no es válida.');
         break;
     }
-  
     // Salida alg
     print('El costo total de la llamada es: $costototal');
 }
