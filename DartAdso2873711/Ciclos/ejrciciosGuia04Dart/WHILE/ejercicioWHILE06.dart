@@ -14,7 +14,7 @@ void main(List<String> args) {
   print("Digite el numero de alumnos");
   numAlumnos=int.parse(stdin.readLineSync()!);
   while(contador<numAlumnos){
-    print("Digite la calificacion del alumno "+(contador+1).toString());
+    print("Digite la edad del alumno "+(contador+1).toString());
     edades=int.parse(stdin.readLineSync()!);
     print("Digite el genero del alumno "+(contador+1).toString());
     genero=stdin.readLineSync()!;
@@ -31,6 +31,7 @@ void main(List<String> args) {
   promedio=suma/numAlumnos;
   promedioHombres=edadesHombres/hombres;
   promedioMujeres=edadesMujeres/mujeres;
+  //Salida
   print("El promedio es : $promedio");
   print("El promedio de hombres es : $promedioHombres");  
   print("El promedio de mujeres es : $promedioMujeres");

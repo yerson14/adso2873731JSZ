@@ -6,7 +6,7 @@ void main(List<String> args) {
   */
 
   //Definir variables
-  int cantNumeros,menor=99999999,contador=0,numeros;
+  int cantNumeros,mayor=0,contador=0,numeros;
   
   //Entrada 
   print("Digite la cantidad de numeros");
@@ -14,10 +14,10 @@ void main(List<String> args) {
   while (contador<cantNumeros) {
     print("Digite el numero ${contador+1}");
     numeros=int.parse(stdin.readLineSync()!);
-  if(numeros<menor){
-    menor=numeros;
+  if(numeros > mayor){
+    mayor=numeros;
   }
   contador++;
   }
-  print("El numero menor es $menor");
+  print("El numero mayor es $mayor");
 }
