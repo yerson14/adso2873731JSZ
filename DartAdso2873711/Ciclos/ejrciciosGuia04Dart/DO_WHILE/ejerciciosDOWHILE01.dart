@@ -6,16 +6,30 @@ void main(List<String> args) {
   */
   
   //Definicion de variables
-  int contador=0,total=0,cantidad=0,pago=0;
+  int cantArticulo, contadorArticulo=0, acumArticulos=0;
+  String? articulo,opcion;
+  double precio, totalcompra=0 , totalarticulo;
   //Entrada
-  print("Digite la cantidad de articulos que va a comprar: ");
-  cantidad=int.parse(stdin.readLineSync()!);
-  do{
-    print("Digite el valor de la compra de cada articulo: ");
-    pago=int.parse(stdin.readLineSync()!);
-    total=total+pago;  
-    contador++;
-  }while(contador<cantidad);
-  print("El total a pagar es de: $total");
+  do{ 
+ print("Digite el articulo a comprar: ");
+ articulo= stdin.readLineSync();
+ print("Ingrese la cantidad a comprar de $articulo");
+ cantArticulo = int.parse(stdin.readLineSync()!);
+ print("Ingrese el precio de $articulo");
+ precio= double.parse(stdin.readLineSync()!);
+ totalarticulo= cantArticulo*precio;
+ print("el total en el articulo $articulo sera $totalarticulo");
+ totalcompra += totalarticulo;
+ contadorArticulo++;
+ acumArticulos += cantArticulo;
+ print("Hasta el momento lleva $contadorArticulo Items de articulos");
+ print("La cantidad de articulos en total va en: $acumArticulos");
+ print("Desea ingresar otro articulo (si) - (No)");
+ opcion=stdin.readLineSync();
+ print('*' * 50);
   
+}while(opcion!.toUpperCase()!= "NO");
+print("Señora, el total de la compra sera: $totalcompra");
+print("Va llevar en total: $contadorArticulo");
+print("la cantidad de articulos en total va en: $acumArticulos");
 }
