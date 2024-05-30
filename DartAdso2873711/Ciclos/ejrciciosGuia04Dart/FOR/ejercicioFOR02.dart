@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  //Yerson Herrera - EJE ciclos FOR  01
+  //Yerson Herrera - EJE ciclos FOR  02
   /*
   Leer 10 números e imprimir solamente los números positivos
   */
