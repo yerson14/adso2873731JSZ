@@ -1,5 +1,5 @@
 class Persona {
   // Atributos
-  String nombre;
-  String genero;
+  //String nombre;
+  //String genero;
 }
