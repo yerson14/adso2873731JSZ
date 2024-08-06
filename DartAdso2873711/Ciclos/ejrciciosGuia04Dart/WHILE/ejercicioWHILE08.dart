@@ -1,10 +1,11 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio WHILE 08 YERSON HERRERA
   /*
-  Encontrar el menor valor de un conjunto de n números dados.
+  Encontrar el menor valor de un conjunto de n
+   números dados.
   */
-
   //Definir variables
   int cantNumeros,mayor=0,contador=0,numeros;
   

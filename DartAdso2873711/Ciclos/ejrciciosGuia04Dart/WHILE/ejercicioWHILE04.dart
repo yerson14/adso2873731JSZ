@@ -1,15 +1,21 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio WHILE 04 YERSON HERRERA
   /*
-  El Depto. de Seguridad Publica y Transito del D.F. desea saber, de los n autos que entran a la ciudad de México, cuantos entran con calcomanía de cada color. Conociendo el último dígito de la placa de cada automóvil se puede determinar el color de la calcomanía utilizando la sig. relación:
+  El Depto. de Seguridad Publica y Transito del 
+  D.F. desea saber, de los n autos que entran 
+  a la ciudad de México, cuantos entran 
+  con calcomanía de cada color.
+  Conociendo el último dígito de la placa de
+   cada automóvil se puede determinar el color
+  de la calcomanía utilizando la sig.
+   relación:
 
   DIGITO: 1 o 2, 3 o 4, 5 o 6, 7 o 8, 9 o 0
   COLOR: amarilla, rosada, roja, verde, azul 
   */
-
   //Definir variables
-
   int autos,amarilla=0,rosada=0,roja=0,verde=0,azul=0,contador=0,numPlaca;
   //Entrada 
   print("Digite el numero de autos");

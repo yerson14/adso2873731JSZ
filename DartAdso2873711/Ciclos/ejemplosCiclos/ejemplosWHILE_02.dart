@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-
+  //Ejemplos WHILE 02 YERSON HERRERA
 print("imprimir numeros pares digitados por el usuario");
 int num=-1;
 while (num !=0) {

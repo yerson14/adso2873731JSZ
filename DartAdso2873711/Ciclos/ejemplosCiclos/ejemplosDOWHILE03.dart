@@ -1,9 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  /*
-  
-  */
+  //Ejemplos WHILE 03 YERSON HERRERA
   //Definir variables
   int clave=1305,claveIngresada;
 

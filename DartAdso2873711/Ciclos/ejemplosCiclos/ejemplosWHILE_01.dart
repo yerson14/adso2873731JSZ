@@ -1,5 +1,6 @@
 void main(List<String> args) {
-  //Variables de tippo contador
+  //Ejemplos WHILE 01 YERSON HERRERA
+  //Variables de tipo contador
   int contador=0;
   while(contador<=5){
     print("Contador> $contador");

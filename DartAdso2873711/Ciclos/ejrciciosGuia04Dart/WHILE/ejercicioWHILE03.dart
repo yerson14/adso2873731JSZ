@@ -1,8 +1,9 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio WHILE 03 YERSON HERRERA
   /*
-
+  Determinar  cuantos  hombres  y  cuantas  mujeres  se  encuentran  en  un  grupo  de  n  personas, suponiendo que los datos son extraídos alumno por alumno.
   */
 
   //Definir variables

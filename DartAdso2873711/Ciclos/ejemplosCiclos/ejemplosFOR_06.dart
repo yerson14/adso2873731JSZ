@@ -1,10 +1,12 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejemplos For 06 YERSON HERRERA
   /*
   Pedir al usuario N notas ingresadas por el usuario.Si el promedio
   es mayor a 3,decir que el estudainte aprobo el trimestre, sino indique que reprobo
   */
+
 
   int notas,numNotas;
   double suma=0,promedio;

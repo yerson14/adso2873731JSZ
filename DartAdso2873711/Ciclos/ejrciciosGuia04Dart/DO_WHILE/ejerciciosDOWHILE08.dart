@@ -1,8 +1,15 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio DO WHILE 08 YERSON HERRERA
   /*
- Hacer un programa que lea caracteres desde teclado y vaya contando las vocales que aparecen. El programa  terminará  cuando  lea  el  carácter  #  y  entonces  mostrará  un  mensaje  indicando  cuántas vocales ha leído (cuántas de cada una de ellas).
+ Hacer un programa que lea caracteres desde 
+ teclado y vaya contando las vocales que
+  aparecen. El programa  terminará  cuando 
+   lea  el  carácter  #  y  entonces  
+   mostrará  un  mensaje  indicando  
+   cuántas vocales ha leído 
+   (cuántas de cada una de ellas).
   */
   //Definicion de variables
   String caracter;

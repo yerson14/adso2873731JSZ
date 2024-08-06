@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio WHILE 05 YERSON HERRERA
   /*
   Obtener el promedio de calificaciones de un grupo de n alumnos
   */
@@ -20,7 +21,4 @@ void main(List<String> args) {
   }
   promedio=suma/numAlumnos;
   print("El promedio es : $promedio");
-
-
-
 }

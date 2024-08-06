@@ -1,15 +1,14 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio WHILE 06 YERSON HERRERA
   /*
   Calcular el promedio de edades de hombres, mujeres y de todo un grupo de n alumnos
   */
-
   //Definir variables
   int numAlumnos,contador=0,hombres=0,mujeres=0,edadesHombres=0,edadesMujeres=0,edades=0;
   double promedio=0,suma=0,promedioHombres,promedioMujeres;
   String genero;
-  
   //Entrada 
   print("Digite el numero de alumnos");
   numAlumnos=int.parse(stdin.readLineSync()!);
@@ -35,6 +34,4 @@ void main(List<String> args) {
   print("El promedio es : $promedio");
   print("El promedio de hombres es : $promedioHombres");  
   print("El promedio de mujeres es : $promedioMujeres");
-
-
 }

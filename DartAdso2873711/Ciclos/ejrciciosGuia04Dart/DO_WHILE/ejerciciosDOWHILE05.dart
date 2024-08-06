@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main(List<String> args) {
+  //Ejercicio DO WHILE 05 YERSON HERRERA
   /*
   Calcular la suma siguiente:100 + 98 + 96 + 94 + . . . + 0 en este orden
   */
