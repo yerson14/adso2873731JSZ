@@ -14,5 +14,5 @@ void main(List<String> args) {
   }
     promedio=suma/cant;
     print("La suma es: $suma");
-   print("El promedio es : $promedio");
+    print("El promedio es : $promedio");
 }
